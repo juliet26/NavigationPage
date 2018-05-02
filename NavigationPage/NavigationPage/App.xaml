@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationPage.App">
+	<Application.Resources>
+
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="FontSize"/>
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="BackGroundColor" Value="Blue"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="FontAttributes" Value="Bold, Italic"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            </Style>
+        </ResourceDictionary>
+	</Application.Resources>
+</Application>
