@@ -4,9 +4,15 @@
              x:Class="NavigationPage.Pagina3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Esta es la pagina 3" />
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="btnInicio"
+                        Text="Inicio"></Button>
+                <Button x:Name="btnAnterior"
+                        Text="Anterior"></Button>
+                <Button x:Name="btnSiguiente"
+                        Text="Siguiente"></Button>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
