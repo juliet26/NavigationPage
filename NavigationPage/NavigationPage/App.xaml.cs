@@ -12,16 +12,15 @@ namespace NavigationPage
 		public App ()
 		{
 
-			InitializeComponent();
+			InitializeComponent();;
             MainPage = new NavigationPage(new MainPage());
-
             var navigationPage = new NavigationPage(new MainPage());
-            navigationPage.BarBackGroundColor = Color.Blue;
+            navigationPage.BarBackgroundColor = Color.Blue;
             navigationPage.BarTextColor = Color.White;
             MainPage = navigationPage;
 
-            
-		}
+
+        }
 
 		protected override void OnStart ()
 		{

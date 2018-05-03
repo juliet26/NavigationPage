@@ -4,10 +4,8 @@
              x:Class="NavigationPage.Pagina2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Estamos en pagina 2"
-                 />
-            <Label x:Name="lblOpcion"
-                 />
+            <Label Text="Estamos en pagina 2"/>
+            <Label x:Name="lblOpcion"/>
             <Button x:Name="BtnTest"
                     Text="Test"></Button>
             <Button x:Name="BtnTres"
